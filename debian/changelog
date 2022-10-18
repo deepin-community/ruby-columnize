@@ -1,0 +1,60 @@
+ruby-columnize (0.9.0-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 16:11:34 +0100
+
+ruby-columnize (0.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+
+ -- Antonio Terceiro <terceiro@debian.org>  Tue, 09 Jun 2015 11:17:43 -0300
+
+ruby-columnize (0.8.9-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Cédric Boutillier ]
+  * debian/control:
+    - remove obsolete DM-Upload-Allowed flag
+    - use canonical URI in Vcs-* fields
+
+  [ Nitesh A Jain ]
+  * Imported Upstream version 0.8.9
+  * Bumped standards to 3.9.5
+  * Bumped gem2deb dependency to 0.7.5
+  * d/copyright: for copyright format 1.0
+
+  [ Jonas Genannt ]
+  * d/copyright:
+    - fixed Source url
+    - fixed format for copyright 1.0
+  * d/control:
+    - bumped up standards version to 3.9.6 (no changed needed)
+    - added testsuite header
+  * d/ruby-tests.rb: removed whitespace
+  * d/rules: do not install Makefiles to package
+  * added patch to fix require for autopkg tests
+
+ -- Jonas Genannt <jonas.genannt@capi2name.de>  Fri, 10 Oct 2014 16:37:34 +0200
+
+ruby-columnize (0.3.6-2) unstable; urgency=low
+
+  * Team upload 
+  * Change Vcs filed to team repo
+  * Cleanup ruby-tests.rb
+
+  [Nandaja Verma]
+  * Update description in debian/control
+  * Update debian/copyright
+
+ -- Praveen Arimbrathodiyil <praveen@debian.org>  Thu, 01 Nov 2012 12:41:43 +0530
+
+ruby-columnize (0.3.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #691603)
+
+ -- Nandaja Varma <nandaja.varma@gmail.com>  Mon, 29 Oct 2012 14:49:07 +0400
+

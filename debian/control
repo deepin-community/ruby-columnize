@@ -1,0 +1,24 @@
+Source: ruby-columnize
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Nandaja Varma <nandaja.varma@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.7.5~)
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-columnize.git
+Vcs-Browser: http://anonscm.debian.org/gitweb?p=pkg-ruby-extras/ruby-columnize.git;a=summary
+Homepage: https://github.com/rocky/columnize
+XS-Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+
+Package: ruby-columnize
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+Description: Ruby library to format arrays as column-aligned strings
+ In showing a long lists, sometimes one would prefer to see the value
+ arranged aligned in columns. Some examples include listing methods
+ of an object or debugger commands. This Ruby library helps in aligning so.
+ .
+ See Examples in the rdoc documentation for examples.
+
